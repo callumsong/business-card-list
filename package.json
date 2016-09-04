@@ -1,0 +1,33 @@
+{
+  "name": "business-card-list",
+  "version": "1.0.0",
+  "description": "Project to display business cards",
+  "main": "server.js",
+  "scripts": {
+    "start": "node_modules/gulp/bin/gulp.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/callumsong/business-card-list.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/callumsong/business-card-list/issues"
+  },
+  "homepage": "https://github.com/callumsong/business-card-list#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "riot": "^2.6.1",
+    "superagent": "^2.2.0",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-express": "^0.3.5",
+    "gulp-riot": "^0.5.4",
+    "gulp-uglify": "^2.0.0"
+  }
+}

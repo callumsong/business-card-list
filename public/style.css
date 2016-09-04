@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80%;
+  margin: 10% auto;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+input {
+  border: 1px solid #000;
+  width: 75%;
+  line-height: 2em;
+  margin-right: 5px;
+  border-radius: 4px;
+}
+
+button {
+  line-height: 2em;
+  background-color: #c56f6f;
+  color: #fff;
+  border-radius: 4px;
+}
+
+ul {
+  padding: 0;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+#showcase-card {
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 10px;
+  display: inline-block;
+}
+
+@media (min-width: 36em) {
+  #showcase-card {
+    display:block;
+  }
+}
+
+.card-name {
+  font-size: 1.25em;
+  font-weight: 800;
+}
+
+.card-email {
+  display: block;
+}

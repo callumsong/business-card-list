@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  {{ header_content | safe }}
+  <body>
+    {{ tag_content | safe }}
+
+    <script src="riot.min.js"></script>
+    <script src="tags.js"></script>
+    <script>
+      riot.mount('root-tag',{ cards: {{ cards | safe }}, searchTerm: '{{searchTerm}}' });
+    </script>
+  </body>
+</html>
